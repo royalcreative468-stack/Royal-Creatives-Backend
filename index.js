@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://royal-creatives.vercel.app/',
+    origin:'https://royal-creatives.vercel.app',
     credentials:true
 }
 
